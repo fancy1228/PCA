@@ -2,9 +2,8 @@
 
 precompile: g++ overlapping.cpp -o overlapping.o
 
-Usage: pipeline.sh input.vcf
+Usage: pipeline.sh input.vcf 1000Genome.vcf
 
-* reference 1000 Genome dataset was hard coded
 
 Step 1: convert VCF file to PLINK file
 
