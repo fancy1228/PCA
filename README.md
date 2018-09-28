@@ -1,7 +1,8 @@
-# PCA
-principal component analysis
+# principal component analysis
 
-run pipeline.sh input.vcf
+precompile: g++ overlapping.cpp -o overlapping.o
+
+Usage: pipeline.sh input.vcf
 
 * reference 1000 Genome dataset was hard coded
 
@@ -16,3 +17,5 @@ Step 4: change the variant names to make it consistent across the two datasets
 Step 5: combined the two datasets and perform PCA
 
 Step 6: population stratification using KNN
+
+Step 7: plot the first six principal components
